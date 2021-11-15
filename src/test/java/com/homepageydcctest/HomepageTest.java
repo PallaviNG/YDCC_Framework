@@ -5,16 +5,13 @@ import org.testng.Assert;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import ydcc.config.BaseClass;
 import ydcc.keyword.UIKeywords;
 
-public class HomepageTest extends BaseClass {
-	// public RemoteWebDriver driver = null;
+public class HomepageTest {
 	UIKeywords keyword = UIKeywords.getInstance();
 
 	@Given("The chrome browser is launched")
 	public void the_chrome_browser_is_launched() {
-		keyword.openBrowser("chrome");
 	}
 
 	@And("The Url of app is also launched")
@@ -31,7 +28,6 @@ public class HomepageTest extends BaseClass {
 
 	@Given("Click on the Register Btn")
 	public void click_on_the_register_btn() {
-		keyword.openBrowser("chrome");
 		keyword.launchURL("http://143.110.249.55");
 		WebElement btnRegister = keyword.getWebElement("css", "a[href='/reg-instruction']");
 		btnRegister.click();
@@ -53,11 +49,9 @@ public class HomepageTest extends BaseClass {
 
 	@Given("Click on CheckBox")
 	public void click_on_check_box() {
-		keyword.openBrowser("chrome");
 		keyword.launchURL("http://143.110.249.55/reg-instruction");
 		WebElement agree = keyword.getWebElement("css", "input#i-agree");
 		keyword.click(agree);
-		//agree.click();
 	}
 
 	@And("Click Here to Proceed Btn")

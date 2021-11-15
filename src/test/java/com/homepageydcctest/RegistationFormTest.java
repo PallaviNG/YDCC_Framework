@@ -3,7 +3,6 @@ package com.homepageydcctest;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 
-import com.testingshastra.uitests.SignUpPageTest;
 import com.ydcc.utils.WaitsFor;
 import com.yddc.pages.RegistraionFormPage;
 
@@ -24,8 +23,8 @@ public class RegistationFormTest {
 
 	@And("Filled All Box Details")
 	public void filled_all_box_details() {
-		keyword.enterText(rst.aadhaar_number, "123456789058");
-		keyword.enterText(rst.confirm_Aadhaar_Number, "123456789058");
+		keyword.enterText(rst.aadhaar_number, "123456789082");
+		keyword.enterText(rst.confirm_Aadhaar_Number, "123456789082");
 		keyword.enterText(rst.pan_Card, "ABDCD5269F");
 		keyword.enterText(rst.confirm_pan_Card, "ABDCD5269F");
 		keyword.enterText(rst.first_name, "SHAKTI");
