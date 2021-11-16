@@ -12,6 +12,3 @@ Scenario: Click here at Instruction Page
 Given Click on CheckBox
 And Click Here to Proceed Btn
 Then verify title of the registration Form
-
-
-
