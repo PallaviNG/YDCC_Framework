@@ -9,6 +9,7 @@ import com.yddc.pages.RegistraionFormPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import ydcc.keyword.UIKeywords;
 
 public class RegistationFormTest {
@@ -16,15 +17,15 @@ public class RegistationFormTest {
 	private static final Logger LOG = Logger.getLogger(RegistationFormTest.class);
 	RegistraionFormPage rst = PageFactory.initElements(UIKeywords.getInstance().driver, RegistraionFormPage.class);
 
-	@Given("The Register page URL is launched")
+	@And("The Register page URL is launched")
 	public void the_register_page_url_of_app_is_also_launched() {
 		keyword.launchURL("http://143.110.249.55/new-registration");
 	}
 
-	@And("Filled All Box Details")
+	@Given("Filled All Box Details")
 	public void filled_all_box_details() {
-		keyword.enterText(rst.aadhaar_number, "123456789082");
-		keyword.enterText(rst.confirm_Aadhaar_Number, "123456789082");
+		keyword.enterText(rst.aadhaar_number, "123456789087");
+		keyword.enterText(rst.confirm_Aadhaar_Number, "123456789087");
 		keyword.enterText(rst.pan_Card, "ABDCD5269F");
 		keyword.enterText(rst.confirm_pan_Card, "ABDCD5269F");
 		keyword.enterText(rst.first_name, "SHAKTI");
@@ -45,7 +46,7 @@ public class RegistationFormTest {
 		LOG.info("Name To Be Printed On Hall Ticket*" + rst.Name_To_Be_printed_On_hall_ticket.getText());
 	}
 
-	@Then("Verify Details")
+	@When("Verify Details")
 	public void verify_details() {
 		keyword.click(rst.verifyDetails);
 		System.out.println("Get pop text:" + rst.registration_confirmation.getText());
