@@ -1,6 +1,20 @@
-2021-Nov-16 11:03:01,736 [main] com.homepageydcctest.RegistationFormTest 
-  INFO  Name To Be Printed On Hall Ticket*SHAKTI MOHAN NAIK
-2021-Nov-16 11:03:02,327 [main] com.homepageydcctest.RegistationFormTest 
-  INFO  Get pop text:You Can Now Submit Registration Form.
-2021-Nov-16 11:03:03,889 [main] com.homepageydcctest.RegistationFormTest 
-  INFO  Get Regi Succe:You Have Registered Successfully.
+2021-Nov-20 18:40:06,838 [main] com.ydcc.utils.YdccTestListener 
+  INFO  TakeScreenShot While Test Case Failed..
+2021-Nov-20 18:40:08,298 [main] com.ydcc.utils.YdccTestListener 
+  INFO  TakeScreenShot While Test Case Failed2..
+2021-Nov-20 18:40:08,299 [main] com.ydcc.utils.YdccTestListener 
+  INFO  TakeScreenShot While Test Case Failed3..
+2021-Nov-20 18:40:08,299 [main] com.ydcc.utils.YdccTestListener 
+  INFO  TakeScreenShot While Test Case Failed4..
+2021-Nov-20 18:40:08,299 [main] com.ydcc.utils.YdccTestListener 
+  INFO  ScreenShot is Save Date formate Successfully6
+2021-Nov-20 18:40:08,303 [main] com.ydcc.utils.YdccTestListener 
+  INFO  TakeScreenShot While Test Case Failed..
+2021-Nov-20 18:40:09,598 [main] com.ydcc.utils.YdccTestListener 
+  INFO  TakeScreenShot While Test Case Failed2..
+2021-Nov-20 18:40:09,614 [main] com.ydcc.utils.YdccTestListener 
+  INFO  TakeScreenShot While Test Case Failed3..
+2021-Nov-20 18:40:09,614 [main] com.ydcc.utils.YdccTestListener 
+  INFO  TakeScreenShot While Test Case Failed4..
+2021-Nov-20 18:40:09,614 [main] com.ydcc.utils.YdccTestListener 
+  INFO  ScreenShot is Save Date formate Successfully6

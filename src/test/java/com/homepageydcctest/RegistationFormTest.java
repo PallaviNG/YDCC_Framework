@@ -2,17 +2,24 @@ package com.homepageydcctest;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
 
 import com.ydcc.utils.WaitsFor;
+import com.ydcc.utils.YdccTestListener;
 import com.yddc.pages.RegistraionFormPage;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import ydcc.config.BaseClass;
 import ydcc.keyword.UIKeywords;
 
-public class RegistationFormTest {
+@Listeners(YdccTestListener.class)
+public class RegistationFormTest{
 	UIKeywords keyword = UIKeywords.getInstance();
 	private static final Logger LOG = Logger.getLogger(RegistationFormTest.class);
 	RegistraionFormPage rst = PageFactory.initElements(UIKeywords.getInstance().driver, RegistraionFormPage.class);
@@ -20,12 +27,12 @@ public class RegistationFormTest {
 	@And("The Register page URL is launched")
 	public void the_register_page_url_of_app_is_also_launched() {
 		keyword.launchURL("http://143.110.249.55/new-registration");
+		LOG.info("URL is Launched");
 	}
-
 	@Given("Filled All Box Details")
 	public void filled_all_box_details() {
-		keyword.enterText(rst.aadhaar_number, "123456789087");
-		keyword.enterText(rst.confirm_Aadhaar_Number, "123456789087");
+		keyword.enterText(rst.aadhaar_number, "123456789431");
+		keyword.enterText(rst.confirm_Aadhaar_Number, "123456789431");
 		keyword.enterText(rst.pan_Card, "ABDCD5269F");
 		keyword.enterText(rst.confirm_pan_Card, "ABDCD5269F");
 		keyword.enterText(rst.first_name, "SHAKTI");
@@ -41,11 +48,10 @@ public class RegistationFormTest {
 		keyword.enterText(rst.Email_id_onlydomain, "gmail.com");
 		keyword.enterText(rst.confirmEmail_id_onlyId, "SHAKTIMOHAN");
 		keyword.enterText(rst.confirmEmail_id_onlydomain, "gmail.com");
-
+		LOG.info("All filled's are Filled correctly ");
 		System.out.println("Name To Be Printed On Hall Ticket*" + rst.Name_To_Be_printed_On_hall_ticket.getText());
 		LOG.info("Name To Be Printed On Hall Ticket*" + rst.Name_To_Be_printed_On_hall_ticket.getText());
 	}
-
 	@When("Verify Details")
 	public void verify_details() {
 		keyword.click(rst.verifyDetails);
@@ -53,8 +59,7 @@ public class RegistationFormTest {
 		LOG.info("Get pop text:" + rst.registration_confirmation.getText());
 		keyword.click(rst.regisBtnOk);
 	}
-
-	@Then("Click On Submit Button")
+	@Then("Click On Submit button")
 	public void clickOnSubmitButton() {
 		keyword.click(rst.regiSuccPageSubmit);
 		WaitsFor.visibilityOFElement(rst.registerSuccf, 50);
@@ -69,5 +74,12 @@ public class RegistationFormTest {
 			e.printStackTrace();
 		}
 	}
-
+	@Test
+	@When("Test case fail take screen shot")
+	public void test_case_fail_take_screen_shot() {
+		String Actual = keyword.getTitleOfPage();
+		String Expected = "YDCC";
+		LOG.info(keyword.getTitleOfPage());
+		Assert.assertEquals(Actual, Expected);
+	}
 }
