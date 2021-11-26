@@ -6,3 +6,4 @@ Given Filled All Box Details
 When Verify Details
 Then Click On Submit button
 When Test case fail take screen shot
+And Done

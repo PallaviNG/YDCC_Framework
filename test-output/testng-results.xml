@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18318" started-at="2021-11-22T15:15:48 IST" finished-at="2021-11-22T15:16:06 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ydcc.runner.YdccRunnerMavenTest@1aa7ecca]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="18318" started-at="2021-11-22T15:15:48 IST" finished-at="2021-11-22T15:16:06 IST">
+      <class name="ydcc.runner.YdccRunnerMavenTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:ydcc.runner.YdccRunnerMavenTest@1aa7ecca]" name="setUpClass" is-config="true" duration-ms="381" started-at="2021-11-22T15:15:48 IST" finished-at="2021-11-22T15:15:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ydcc.runner.YdccRunnerMavenTest@1aa7ecca]" name="runScenario" duration-ms="17728" started-at="2021-11-22T15:15:48 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-22T15:16:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filled all box and verify details and submit the result"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This features verify the Register page for all negative and positive scripts]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [YDCC] but found [New User Registration]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [YDCC] but found [New User Registration]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.homepageydcctest.RegistationFormTest.test_case_fail_take_screen_shot(RegistationFormTest.java:81)
+at ✽.Test case fail take screen shot(file:///D:/Jsumit/YDCC/src/test/resources/Features/RegisterPage.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:ydcc.runner.YdccRunnerMavenTest@1aa7ecca]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2021-11-22T15:16:06 IST" finished-at="2021-11-22T15:16:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ydcc.runner.YdccRunnerMavenTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
