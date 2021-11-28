@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="42065" started-at="2021-11-27T16:43:35 IST" finished-at="2021-11-27T16:44:17 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ydcc.runner.YdccRunnerMavenTest@54d9d12d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="42065" started-at="2021-11-27T16:43:35 IST" finished-at="2021-11-27T16:44:17 IST">
+      <class name="ydcc.runner.YdccRunnerMavenTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:ydcc.runner.YdccRunnerMavenTest@54d9d12d]" name="setUpClass" is-config="true" duration-ms="515" started-at="2021-11-27T16:43:59 IST" finished-at="2021-11-27T16:44:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ydcc.runner.YdccRunnerMavenTest@54d9d12d]" name="runScenario" duration-ms="17550" started-at="2021-11-27T16:44:00 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-27T16:44:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filled all box and verify details and submit the result"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This features verify the Register page for all negative and positive scripts]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:ydcc.runner.YdccRunnerMavenTest@54d9d12d]" name="tearDownClass" is-config="true" duration-ms="38" started-at="2021-11-27T16:44:17 IST" finished-at="2021-11-27T16:44:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ydcc.runner.YdccRunnerMavenTest -->
+      <class name="com.homepageydcctestFailed.RegistationFormFailedTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.homepageydcctestFailed.RegistationFormFailedTest@3c41ed1d]" name="launchBrowser" is-config="true" duration-ms="6714" started-at="2021-11-27T16:43:35 IST" finished-at="2021-11-27T16:43:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="the_register_page_url_of_app_is_also_launched()[pri:0, instance:com.homepageydcctestFailed.RegistationFormFailedTest@3c41ed1d]" name="the_register_page_url_of_app_is_also_launched" duration-ms="15544" started-at="2021-11-27T16:43:42 IST" finished-at="2021-11-27T16:43:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- the_register_page_url_of_app_is_also_launched -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.homepageydcctestFailed.RegistationFormFailedTest@3c41ed1d]" name="tearDown" is-config="true" duration-ms="1332" started-at="2021-11-27T16:43:58 IST" finished-at="2021-11-27T16:43:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.homepageydcctestFailed.RegistationFormFailedTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

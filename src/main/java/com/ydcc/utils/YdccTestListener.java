@@ -51,8 +51,8 @@ public class YdccTestListener implements ITestListener {
 
 	public void onTestFailure(ITestResult result) {
 		AShot ashot = new AShot();
-		ShootingStrategy strategy = ShootingStrategies.viewportPasting(2000);
-		ashot.shootingStrategy(strategy);
+		//ShootingStrategy strategy = ShootingStrategies.viewportPasting(20);
+		//ashot.shootingStrategy(strategy);
 		Screenshot scr = ashot.takeScreenshot(BaseClassN.driver);
 		BufferedImage img = scr.getImage();
 		try {

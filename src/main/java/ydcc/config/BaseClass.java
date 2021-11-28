@@ -11,12 +11,13 @@ public class BaseClass {
 
 	@Before
 	public void launchBrowser() {
-		keyword.openBrowser("chrome");
 		this.driver = keyword.getDriver();
+		keyword.openBrowser("chrome");
 	}
 
 	@After
 	public void tearDown() {
+		this.driver = keyword.getDriver();
 		keyword.quitBrowser();
 		System.out.println("Closing browser");
 	}

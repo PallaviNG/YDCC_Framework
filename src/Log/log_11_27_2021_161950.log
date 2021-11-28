@@ -1,0 +1,10 @@
+2021-Nov-27 16:19:50,063 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  URL is Launched
+2021-Nov-27 16:19:53,177 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  All filled's are Filled correctly 
+2021-Nov-27 16:19:53,237 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  Name To Be Printed On Hall Ticket*SHAKTI MOHAN NAIK
+2021-Nov-27 16:19:53,562 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  Get pop text:You Can Now Submit Registration Form.
+2021-Nov-27 16:19:54,976 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  Get Regi Succe:Aadhaar number is already registered.

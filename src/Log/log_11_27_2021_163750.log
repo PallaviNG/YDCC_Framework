@@ -1,0 +1,10 @@
+2021-Nov-27 16:37:50,508 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  URL is Launched
+2021-Nov-27 16:37:53,438 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  All filled's are Filled correctly 
+2021-Nov-27 16:37:53,500 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  Name To Be Printed On Hall Ticket*SHAKTI MOHAN NAIK
+2021-Nov-27 16:37:54,587 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  Get pop text:You Can Now Submit Registration Form.
+2021-Nov-27 16:37:55,478 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  Get Regi Succe:You Have Registered Successfully.

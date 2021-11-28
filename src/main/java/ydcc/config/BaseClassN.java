@@ -19,7 +19,7 @@ public class BaseClassN {
 	@AfterMethod
 	public void tearDown() {
 		keyword.quitBrowser();
-		System.out.println("Closing browser");
+		System.out.println("Closing browserRRR");
 	}
 
 }

@@ -1,0 +1,26 @@
+2021-Nov-27 16:33:18,565 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  URL is Launched
+2021-Nov-27 16:33:21,420 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  All filled's are Filled correctly 
+2021-Nov-27 16:33:21,509 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  Name To Be Printed On Hall Ticket*SHAKTI MOHAN NAIK
+2021-Nov-27 16:33:21,910 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  Get pop text:You Can Now Submit Registration Form.
+2021-Nov-27 16:33:23,136 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  Get Regi Succe:You Have Registered Successfully.
+2021-Nov-27 16:33:30,705 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  User General Details
+2021-Nov-27 16:33:31,597 [main] com.ydcc.utils.YdccTestListener 
+  INFO  ScreenShot is Save Successfully5
+2021-Nov-27 16:33:38,895 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  URL is Launched
+2021-Nov-27 16:33:41,514 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  All filled's are Filled correctly 
+2021-Nov-27 16:33:41,584 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  Name To Be Printed On Hall Ticket*SHANTI MOHAN NAIK
+2021-Nov-27 16:33:41,801 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  Get pop text:You Can Now Submit Registration Form.
+2021-Nov-27 16:33:43,034 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  Get Regi Succe:You Have Registered Successfully.
+2021-Nov-27 16:33:51,782 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  User General Details
