@@ -1,7 +1,6 @@
 package ydcc.config;
 
 import org.openqa.selenium.remote.RemoteWebDriver;
-
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import ydcc.keyword.UIKeywords;
@@ -12,8 +11,8 @@ public class BaseClass {
 
 	@Before
 	public void launchBrowser() {
-		keyword.openBrowser("chrome");
 		this.driver = keyword.getDriver();
+		keyword.openBrowser("chrome");
 	}
 
 	@After

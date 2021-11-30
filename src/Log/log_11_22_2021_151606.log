@@ -1,0 +1,10 @@
+2021-Nov-22 15:16:00,516 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  All filled's are Filled correctly 
+2021-Nov-22 15:16:00,577 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  Name To Be Printed On Hall Ticket*SHAKTI MOHAN NAIK
+2021-Nov-22 15:16:00,828 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  Get pop text:You Can Now Submit Registration Form.
+2021-Nov-22 15:16:01,434 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  Get Regi Succe:Aadhaar number is already registered.
+2021-Nov-22 15:16:06,567 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  New User Registration

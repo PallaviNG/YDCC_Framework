@@ -1,0 +1,12 @@
+2021-Nov-27 16:42:00,413 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  URL is Launched
+2021-Nov-27 16:42:02,514 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  All filled's are Filled correctly 
+2021-Nov-27 16:42:02,584 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  Name To Be Printed On Hall Ticket*SHANTI MOHAN NAIK
+2021-Nov-27 16:42:02,774 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  Get pop text:You Can Now Submit Registration Form.
+2021-Nov-27 16:42:03,725 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  Get Regi Succe:You Have Registered Successfully.
+2021-Nov-27 16:42:11,296 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  User General Details

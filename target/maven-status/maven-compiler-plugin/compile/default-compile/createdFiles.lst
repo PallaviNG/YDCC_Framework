@@ -1,0 +1,6 @@
+ydcc\config\BaseClass.class
+ydcc\keyword\UIKeywords.class
+com\ydcc\utils\YdccTestListener.class
+com\ydcc\utils\WaitsFor.class
+ydcc\config\BaseClassN.class
+com\yddc\pages\RegistraionFormPage.class

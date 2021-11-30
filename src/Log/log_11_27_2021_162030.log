@@ -1,0 +1,16 @@
+2021-Nov-27 16:20:00,151 [main] com.homepageydcctestFailed.RegistationFormFailedTest 
+  INFO  New User Registration
+2021-Nov-27 16:20:06,411 [main] com.ydcc.utils.YdccTestListener 
+  INFO  ScreenShot is Save Successfully5
+2021-Nov-27 16:20:19,069 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  URL is Launched
+2021-Nov-27 16:20:22,169 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  All filled's are Filled correctly 
+2021-Nov-27 16:20:22,263 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  Name To Be Printed On Hall Ticket*SHAKTI MOHAN NAIK
+2021-Nov-27 16:20:22,654 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  Get pop text:You Can Now Submit Registration Form.
+2021-Nov-27 16:20:24,564 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  Get Regi Succe:Aadhaar number is already registered.
+2021-Nov-27 16:20:30,795 [main] com.homepageydcctest.RegistationFormTest 
+  INFO  New User Registration
